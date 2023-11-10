@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Music Festival</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <h1>Rock Music Festival</h1>
+
+        <nav class="nav-principal">
+          <a href="#lineup">Line-Up</a>
+          <a href="#galeria">Galería</a>
+          <a href="#boletos">Boletos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="video">
+      <div class="overlay">
+        <div class="contenedor contenido-video">
+          <h2>Rock Music Festival</h2>
+          <p>Guadalajara, Jalisco</p>
+        </div>
+      </div>
+
+      <video autoplay muted loop>
+        <source src="video/concierto.mp4" type="video/mp4" />
+        <source src="video/concierto.ogg" type="video/ogg" />
+        <source src="video/concierto.webm" type="video/webm " />
+      </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+      <div class="imagen">
+        <img
+          src="build/img/imagen_vocalista.jpg"
+          alt="imagen de imagen vocalista"
+        />
+      </div>
+
+      <div class="contenido-festival">
+        <h2>Rock Music Festival</h2>
+        <p class="lugar">Guadalajara, Jalisco</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque
+          eveniet ducimus minima distinctio ut voluptatum sit numquam assumenda,
+          odit facilis soluta, ipsum aut repellat quae tempora ad commodi
+          doloribus!
+        </p>
+      </div>
+    </section>
+
+    <main class="lineup" id="lineup">
+      <h3>Line-Up</h3>
+      <p class="dia">Viernes</p>
+      <div class="stage-contenedor contenedor">
+        <div class="stage rock-1 bg-azul">
+          <p class="nombre-stage">Stage 1</p>
+
+          <ul class="calendario">
+            <li>24:00 | <span>Metallica</span></li>
+            <li>22:00 | <span>Pearl Jam</span></li>
+            <li>20:00 | <span>Linkin Park</span></li>
+            <li>19:00 | <span>Muse</span></li>
+            <li>18:00 | <span>Breaking Benjamin</span></li>
+            <li>17:00 | <span>30 Seconds to Mars</span></li>
+          </ul>
+        </div>
+        <div class="stage rock-2 bg-amarillo">
+          <p class="nombre-stage">Stage 2</p>
+
+          <ul class="calendario">
+            <li>24:00 | <span>Red Hot Chili Peppers</span></li>
+            <li>22:00 | <span>The Killers</span></li>
+            <li>20:00 | <span>The Offspring</span></li>
+            <li>19:00 | <span>Blink-182</span></li>
+
+            <li>18:00 | <span>Papa Roach</span></li>
+            <li>17:00 | <span>Sum 41</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="dia">Sábado</p>
+
+      <div class="stage-contenedor contenedor">
+        <div class="stage rock-2 bg-amarillo">
+          <p class="nombre-stage">Stage 1</p>
+
+          <ul class="calendario">
+            <li>24:00 | <span>Green Day</span></li>
+            <li>22:00 | <span>Slipknot</span></li>
+            <li>20:00 | <span>Bad Omens</span></li>
+            <li>19:00 | <span>Avenged Sevenfold</span></li>
+
+            <li>18:00 | <span>Paramore</span></li>
+            <li>17:00 | <span>Motionless In White</span></li>
+          </ul>
+        </div>
+        <div class="stage rock-1 bg-azul">
+          <p class="nombre-stage">Stage 2</p>
+
+          <ul class="calendario">
+            <li>24:00 | <span>Imagine Dragons</span></li>
+            <li>22:00 | <span>Falling In Reverse</span></li>
+            <li>20:00 | <span>A Day To Remember</span></li>
+            <li>19:00 | <span>3 Days Grace</span></li>
+
+            <li>18:00 | <span>Evanescence</span></li>
+            <li>17:00 | <span>Good Charlotte</span></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <section class="galeria contenedor" id="galeria">
+      <h3>Galería</h3>
+
+      <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section class="boletos bg-azul" id="boletos">
+      <h3>Boletos</h3>
+
+      <div class="contenedor contenedor-boletos">
+        <div class="basico pase">
+          <p class="pase-dia">Pase 1 Día</p>
+
+          <header class="pase-header">
+            <p>Incluye</p>
+          </header>
+
+          <div class="pase-body">
+            <ul>
+              <li>Accesos Ambos Stage</li>
+              <li>Comida y Bebida</li>
+            </ul>
+          </div>
+
+          <footer class="pase-footer">
+            <p>$100</p>
+          </footer>
+        </div>
+
+        <div class="premium pase">
+          <p class="pase-dia">Pase 2 Días</p>
+
+          <header class="pase-header">
+            <p>Incluye</p>
+          </header>
+
+          <div class="pase-body">
+            <ul>
+              <li>Accesos Ambos Stage</li>
+              <li>Comida y Bebida</li>
+              <li>Camisa del Evento</li>
+              <li>Acceso VIP</li>
+            </ul>
+          </div>
+
+          <footer class="pase-footer">
+            <p>$180</p>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Rock and Music Festival. Todos los Derechos Reservados</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+  </body>
+</html>
